@@ -1,0 +1,489 @@
+{
+  "common": {
+    "Topbar": {
+      "follow_text": "Follow Us:",
+      "contact_info": [
+        {
+          "icon": "MapPin",
+          "value": "123 Industrial Area, New Delhi, India - 110001"
+        },
+        {
+          "icon": "Mail",
+          "value": "info@electrocare.in"
+        },
+        {
+          "icon": "Phone",
+          "value": "+91 98765 43210"
+        }
+      ],
+      "socials": [
+        {
+          "icon": "Facebook",
+          "href": "https://www.facebook.com/"
+        },
+        {
+          "icon": "Linkedin",
+          "href": "https://www.linkedin.com/"
+        },
+        {
+          "icon": "Youtube",
+          "href": "https://www.youtube.com/"
+        },
+        {
+          "icon": "Instagram",
+          "href": "https://www.instagram.com/"
+        }
+      ]
+    },
+    "Header": {
+      "logo_image": "/logo/logo.webp",
+      "logo_text": "Electrocare",
+      "logo_subtext": "Electrical Solutions Partner",
+      "links": [
+        {
+          "name": "Home",
+          "href": "#home",
+          "active": true
+        },
+        {
+          "name": "About Us",
+          "href": "#about"
+        },
+        {
+          "name": "Services",
+          "href": "#services"
+        },
+        {
+          "name": "Testimonials",
+          "href": "#testimonials"
+        },
+        {
+          "name": "Why Us",
+          "href": "#why-choose"
+        },
+        {
+          "name": "Contact",
+          "href": "#contact"
+        }
+      ],
+      "button_text": "Request a Quote",
+      "button_link": "#contact"
+    },
+    "Footer": {
+      "logo_image": "/logo/w-logo.webp",
+      "logo_text": "Electrocare",
+      "logo_subtext": "Electrical Solutions Partner",
+      "tagline": "Safe Power. Brighter Tomorrow.",
+      "description": "Your trusted partner for electrical and industrial solutions from leading global brands. Quality products, expert support and reliable service.",
+      "socials": [
+        {
+          "icon": "Facebook",
+          "href": "https://www.facebook.com/"
+        },
+        {
+          "icon": "Linkedin",
+          "href": "https://www.linkedin.com/"
+        },
+        {
+          "icon": "Youtube",
+          "href": "https://www.youtube.com/"
+        },
+        {
+          "icon": "Instagram",
+          "href": "https://www.instagram.com/"
+        }
+      ],
+      "quick_links_title": "Quick Links",
+      "quick_links": [
+        {
+          "name": "Home",
+          "href": "#home"
+        },
+        {
+          "name": "About Us",
+          "href": "#about"
+        },
+        {
+          "name": "Services",
+          "href": "#services"
+        },
+        {
+          "name": "Testimonials",
+          "href": "#testimonials"
+        },
+        {
+          "name": "Why Us",
+          "href": "#why-choose"
+        },
+        {
+          "name": "Contact Us",
+          "href": "#contact"
+        }
+      ],
+      "our_services_title": "Our Services",
+      "our_services": [
+        {
+          "name": "Electrical Installation",
+          "href": "#services"
+        },
+        {
+          "name": "Lighting Solutions",
+          "href": "#services"
+        },
+        {
+          "name": "Panel Upgrade & Repair",
+          "href": "#services"
+        },
+        {
+          "name": "Switch & Socket Repair",
+          "href": "#services"
+        },
+        {
+          "name": "Fan Installation & Repair",
+          "href": "#services"
+        }
+      ],
+      "contact_title": "Contact Us",
+      "contact_items": [
+        {
+          "icon": "Phone",
+          "label": "Call Us",
+          "value": "+91 98765 43210",
+          "href": "tel:+919876543210"
+        },
+        {
+          "icon": "Mail",
+          "label": "Email Us",
+          "value": "info@electrocare.in",
+          "href": "mailto:info@electrocare.in"
+        },
+        {
+          "icon": "MapPin",
+          "label": "Our Location",
+          "value": "123 Industrial Area, New Delhi, India - 110001",
+          "href": "https://maps.google.com"
+        }
+      ],
+      "contact_labels": {
+        "phone": "Call Us",
+        "email": "Email Us",
+        "address": "Our Location"
+      },
+      "contact": {
+        "phone": "+91 98765 43210",
+        "email": "info@electrocare.in",
+        "address": "123 Industrial Area, New Delhi, India - 110001",
+        "address_line1": "123 Industrial Area,",
+        "address_line2": "New Delhi, India - 110001"
+      },
+      "copyright": "Copyright © 2026. All rights reserved. Powered by Lestow"
+    }
+  },
+  "categories": {
+    "Electrical": {
+      "templateComponents": {
+        "template-1": {
+          "pages": {
+            "home": {
+              "title": "Home",
+              "pageName": "Home",
+              "metadata": {
+                "title": "Electrocare - Reliable Electrical Solutions for a Smarter Tomorrow"
+              },
+              "components": [
+                {
+                  "key": "HeroSection",
+                  "component": "Hero"
+                },
+                {
+                  "key": "AboutSection",
+                  "component": "About"
+                },
+                {
+                  "key": "ServicesSection",
+                  "component": "Services"
+                },
+                {
+                  "key": "TestimonialsSection",
+                  "component": "Testimonials"
+                },
+                {
+                  "key": "WhyChooseSection",
+                  "component": "WhyChoose"
+                },
+                {
+                  "key": "ContactSection",
+                  "component": "Contact"
+                }
+              ]
+            }
+          },
+          "sections": {
+            "hero": {
+              "background_pattern": "/hero/darkblue.webp",
+              "slides": [
+                {
+                  "image": "/hero/hero.webp",
+                  "subtitle": "INDUSTRIAL & COMMERCIAL ELECTRICAL SOLUTIONS",
+                  "title_line1": "Reliable Electrical",
+                  "title_highlight": "Solutions for a",
+                  "title_line2": "Smarter Tomorrow",
+                  "description": "Quality products, expert support and tailored electrical solutions for industrial, commercial and residential projects.",
+                  "primary_button": {
+                    "text": "Explore Solutions",
+                    "href": "#services"
+                  },
+                  "secondary_button": {
+                    "text": "Contact Us",
+                    "href": "#contact"
+                  }
+                }
+              ],
+              "highlights": [
+                {
+                  "icon": "Award",
+                  "line1": "Wide Product Range",
+                  "line2": "from Top Brands",
+                  "text": "Wide Product Range from Top Brands"
+                },
+                {
+                  "icon": "ShieldCheck",
+                  "line1": "Genuine Products",
+                  "line2": "& Assured Quality",
+                  "text": "Genuine Products & Assured Quality"
+                },
+                {
+                  "icon": "Truck",
+                  "line1": "On-Time Delivery",
+                  "line2": "Across India",
+                  "text": "On-Time Delivery Across India"
+                },
+                {
+                  "icon": "Headset",
+                  "line1": "Expert Support",
+                  "line2": "& Technical Guidance",
+                  "text": "Expert Support & Technical Guidance"
+                }
+              ]
+            },
+            "about": {
+              "subtitle": "ABOUT ELECTROCARE",
+              "title_line1": "Your Trusted Partner",
+              "title_highlight": "in Electrical Solutions",
+              "title_line2": "",
+              "description": "Electrocare is a leading supplier of genuine electrical and industrial products from global brands. We provide complete solutions for commercial, industrial and infrastructure projects with a focus on quality, reliability and long-term customer satisfaction.",
+              "image": "/img/about.webp",
+              "stats": [
+                {
+                  "value": "5+",
+                  "label": "Years of Experience",
+                  "icon": "Users"
+                },
+                {
+                  "value": "500+",
+                  "label": "Happy Clients",
+                  "icon": "Briefcase"
+                },
+                {
+                  "value": "1000+",
+                  "label": "Products Range",
+                  "icon": "Box"
+                }
+              ],
+              "button": {
+                "text": "Know More About Us",
+                "href": "#contact"
+              }
+            },
+            "services": {
+              "subtitle": "OUR SERVICES",
+              "title_line1": "Complete",
+              "title_highlight": "Electrical Solutions",
+              "title_line2": "",
+              "description": "We provide a wide range of professional electrical services for residential, commercial and industrial needs, ensuring safety, efficiency and long-lasting performance.",
+              "button": {
+                "text": "VIEW ALL SERVICES",
+                "href": "#services"
+              },
+              "items": [
+                {
+                  "title": "Electrical Installation",
+                  "description": "Professional installation of wiring, lighting, panels and complete electrical systems.",
+                  "icon": "Home",
+                  "image": "/services/service-01.webp",
+                  "link": "#contact"
+                },
+                {
+                  "title": "Lighting Solutions",
+                  "description": "Modern and energy-efficient lighting solutions for homes, offices and commercial spaces.",
+                  "icon": "Lightbulb",
+                  "image": "/services/service-02.webp",
+                  "link": "#contact"
+                },
+                {
+                  "title": "Panel Upgrade & Repair",
+                  "description": "Installation, repair and upgrade of electrical panels for safe and reliable power distribution.",
+                  "icon": "LayoutGrid",
+                  "image": "/services/service-03.webp",
+                  "link": "#contact"
+                },
+                {
+                  "title": "Switch & Socket Repair",
+                  "description": "Quick and reliable repair or replacement of switches, sockets and fittings.",
+                  "icon": "Plug",
+                  "image": "/services/service-04.webp",
+                  "link": "#contact"
+                },
+                {
+                  "title": "Fan Installation & Repair",
+                  "description": "Installation, repair and maintenance of ceiling and exhaust fans.",
+                  "icon": "Fan",
+                  "image": "/services/service-05.webp",
+                  "link": "#contact"
+                },
+                {
+                  "title": "AC Electrical Work",
+                  "description": "Dedicated electrical work for AC installation, dedicated wiring and safety connections.",
+                  "icon": "Snowflake",
+                  "image": "/services/service-06.webp",
+                  "link": "#contact"
+                },
+                {
+                  "title": "CCTV & Security Wiring",
+                  "description": "Electrical wiring and setup for CCTV cameras and security systems.",
+                  "icon": "Cctv",
+                  "image": "/services/service-07.webp",
+                  "link": "#contact"
+                },
+                {
+                  "title": "Inverter & Generator Setup",
+                  "description": "Installation and electrical connections for inverters and generators.",
+                  "icon": "BatteryCharging",
+                  "image": "/services/service-08.webp",
+                  "link": "#contact"
+                }
+              ]
+            },
+            "testimonials": {
+              "subtitle": "TESTIMONIALS",
+              "title_line1": "What Our",
+              "title_highlight": "Clients Say",
+              "title_line2": "",
+              "description": "We take pride in delivering safe, reliable and high-quality electrical services. Here's what our valued clients have to say about their experience with us.",
+              "reviews": [
+                {
+                  "text": "Excellent service and professional team. They completed our office electrical work on time with great quality. Highly recommended!",
+                  "author": "Rohit Sharma",
+                  "role": "Delhi, India",
+                  "avatar": "/testimonials/rohit.webp",
+                  "rating": 5
+                },
+                {
+                  "text": "Very reliable and knowledgeable team. They suggested the right solutions and delivered exactly what we needed. Great support!",
+                  "author": "Amit Verma",
+                  "role": "Gurugram, India",
+                  "avatar": "/testimonials/amit.webp",
+                  "rating": 5
+                },
+                {
+                  "text": "Good quality products and prompt service. The installation was smooth and hassle-free. Will definitely work with Electrocare again.",
+                  "author": "Priya Mehta",
+                  "role": "Noida, India",
+                  "avatar": "/testimonials/priya.webp",
+                  "rating": 5
+                },
+                {
+                  "text": "Exceptional work on our home electrical wiring and panel upgrade. Very neat, punctual, and safe execution. Highly dependable team!",
+                  "author": "Rajesh Kumar",
+                  "role": "Faridabad, India",
+                  "avatar": "/testimonials/rajesh.webp",
+                  "rating": 5
+                }
+              ]
+            },
+            "why_choose": {
+              "subtitle": "WHY CHOOSE US",
+              "title_line1": "Your Reliable",
+              "title_highlight": "Electrical Partner",
+              "title_line2": "",
+              "description": "We are committed to delivering safe, reliable and high-quality electrical solutions with a focus on customer satisfaction, safety and long-term value.",
+              "items": [
+                {
+                  "number": "01",
+                  "icon": "Gem",
+                  "title": "Genuine Products",
+                  "description": "100% authentic products from authorized channels."
+                },
+                {
+                  "number": "02",
+                  "icon": "Truck",
+                  "title": "On-Time Delivery",
+                  "description": "Quick and reliable delivery across India."
+                },
+                {
+                  "number": "03",
+                  "icon": "Settings",
+                  "title": "Technical Support",
+                  "description": "Expert guidance for product selection and application."
+                },
+                {
+                  "number": "04",
+                  "icon": "Users",
+                  "title": "Customer First",
+                  "description": "Focused on long-term relationships and support."
+                }
+              ]
+            },
+            "contact": {
+              "subtitle": "GET IN TOUCH",
+              "title_line1": "Let's Build a",
+              "title_highlight": "Brighter Tomorrow",
+              "description": "Share your requirements with us and our team of seasoned electrical experts will help you with tailored solutions, genuine product selection, competitive pricing, and end-to-end technical guidance. From residential wiring to large-scale commercial and industrial setups, we ensure the highest safety standards, prompt response times, and dependable post-installation support for all your project needs.",
+              "background_image": "/img/contact-bg.webp",
+              "cards": [
+                {
+                  "icon": "Phone",
+                  "label": "Call Us",
+                  "title": "Call Us",
+                  "value": "+91 98765 43210",
+                  "subtext": "Mon - Sat, 9:00 AM - 6:00 PM",
+                  "href": "tel:+919876543210"
+                },
+                {
+                  "icon": "Mail",
+                  "label": "Email Us",
+                  "title": "Email Us",
+                  "value": "info@voltix.in",
+                  "subtext": "We reply within 24 hours",
+                  "href": "mailto:info@voltix.in"
+                },
+                {
+                  "icon": "MapPin",
+                  "label": "Our Office",
+                  "title": "Our Office",
+                  "value": "123 Industrial Area, New Delhi,\nIndia - 110001",
+                  "subtext": "",
+                  "href": "https://maps.google.com"
+                }
+              ],
+              "form": {
+                "title": "Send Us a Message",
+                "subtitle": "Fill in your details and our team will get back to you shortly.",
+                "button_text": "Submit Enquiry",
+                "categories": [
+                  "Industrial Panels",
+                  "Lighting Solutions",
+                  "Panel Upgrade & Repair",
+                  "Switch & Socket Repair",
+                  "AC Electrical Work",
+                  "CCTV & Security Wiring",
+                  "Inverter & Generator Setup"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
